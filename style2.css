@@ -1,0 +1,118 @@
+
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: #ff6600;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Navigation Styles */
+nav {
+    background: #333;
+    color: #fff;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    margin: 0 15px;
+}
+
+.menu a {
+    color: #fff;
+    padding: 15px 0;
+    display: block;
+}
+
+.menu a.active,
+.menu a:hover {
+    color: #ff6600;
+}
+
+/* Hero Section */
+.hero {
+    background: url('proj.jpeg') no-repeat center center/cover;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px;
+}
+
+.about-section,
+.team-section {
+    max-width: 800px;
+    margin: 0 auto 40px;
+}
+
+.about-section h2,
+.team-section h2 {
+    color: #ff6600;
+    border-bottom: 2px solid #ff6600;
+    padding-bottom: 5px;
+}
+
+.team-members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.team-member {
+    text-align: center;
+    margin: 20px;
+}
+
+.team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #ff6600;
+    object-fit: cover;
+}
+
+.team-member h3 {
+    margin: 10px 0 5px;
+}
+
+.team-member p {
+    margin: 5px 0;
+    font-style: italic;
+}
+
+.team-member a {
+    display: inline-block;
+    margin-top: 5px;
+    color: #ff6600;
+}
+
+.team-member
+::contentReference[oaicite:0]{index=0}
+ 

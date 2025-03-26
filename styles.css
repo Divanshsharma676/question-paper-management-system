@@ -1,0 +1,80 @@
+/* Separate CSS file (styles.css) */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    background: url('web123.jpeg');
+    background-size: cover;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.navbar .logo {
+    font-size: 35px;
+    color: #ff7200;
+}
+.navbar .menu {
+    list-style: none;
+    display: flex;
+}
+.navbar .menu li {
+    margin-left: 30px;
+}
+.navbar .menu li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+.navbar .menu li a:hover,
+.navbar .menu li a.active {
+    color: #ff7200;
+}
+.navbar .btn {
+    padding: 10px 20px;
+    background-color: #ff7200;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.navbar .btn:hover {
+    background-color: #fff;
+    color: #ff7200;
+}
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.hero h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+footer {
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.7);
+            margin-top: 50px;
+        }
+.social-links {
+    margin-top: 10px;
+}
+.social-links a {
+    margin: 0 10px;
+    color: #ff7200;
+    font-size: 24px;
+    transition: color 0.3s;
+}
+.social-links a:hover {
+    color: #fff;
+}
